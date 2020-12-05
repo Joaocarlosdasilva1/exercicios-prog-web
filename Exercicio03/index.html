@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./public/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon-16x16.png">
+    <link rel="manifest" href="./public/manifest.json">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Exercício</title>
+</head>
+<body>
+    <div align="center">
+        <h1>Calculadora</h1>
+    </div>
+    <div class="mensagens" align="center" id="mensagens"></div>
+
+    <div class="formulario" align="center">
+        <input type="number" name="num1" id="num1">
+        <br>
+        <br>
+        <input type="number" name="num2" id="num2">
+        <br>
+        <br>
+        <button onclick="calcular()">Calcular</button>
+    </div>
+    
+    <div class="resultados" align="center">
+        <p class="soma" id="soma"></p>
+        <p class="sub" id="sub"></p>
+        <p class="mult" id="mult"></p>
+        <p class="div" id="div"></p>
+        <p class="resto" id="resto"></p>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
